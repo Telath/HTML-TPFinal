@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="TP Final - HTML en globalité">
+    <link rel="icon" type="image/png" href="src/favicon.png">
+    <title>TP Final - HTML en globalité</title>
+</head>
+
+<body>
+    <header>
+        <h1>HTML dans sa globalité</h1>
+    </header>
+    <article>
+        <div>
+            <h2>Bonjour!</h2>
+            <p>
+                Bonjour à toi, lecteur de ce tp, je m'appelle <strong>Clément Pouillart</strong>, j'ai
+                <strong>23&nbsp;ans</strong> (je crois).<br>
+                J'adore rien faire mais de temps en temps je joue aux <strong>jeux vidéos</strong> tel que <strong>World
+                    of
+                    Warcraft</strong>.
+            </p>
+        </div>
+
+        <hr>
+
+        <div>
+
+            <h2>Mon parcours</h2>
+            <ul>
+                <li>Actuel : Formation Dev. web & web mobile</li>
+                <li>2021 : Formation Cyber sécurité</li>
+                <li>2018 - 2019 : Licence pro ART (Automatisme, Réseaux et Télémaintenance)</li>
+                <li>2016 - 2018 : BTS CRSA (Conception et réalisation de Systèmes automatisés)</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div>
+            <h2>Mes compétences en web</h2>
+            <table BORDER="1">
+                <tr>
+                    <th>Technologie</th>
+                    <th>Débutant</th>
+                    <th>Moyen</th>
+                    <th>Bon</th>
+                    <th>Expert</th>
+                </tr>
+                <tr>
+                    <td><img src="src/html.svg" title="Image d'html" alt="Image d'html"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><img src="src/css.svg" title="Image css" alt="Image css"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+                <tr>
+                    <td><img src="src/js.svg" title="Image JS" alt="Image JS"></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="src/php.svg" title="Image PHP" alt="Image PHP"></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="src/sql.svg" title="Image SQL" alt="Image SQL"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>X</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2>Me contacter</h2>
+            <p>
+                <a href="mailto:clement.pouillart@gmail.com" title="Adresser un mail à Clément Pouillart"
+                    rel="nofollow">clement.pouillart@gmail.com</a><br>
+                <a href="tel:+33778050295" title="Téléphone à Clément Pouillart" rel="nofollow">07 78 05 02 95</a>
+            </p>
+        </div>
+
+        <iframe src="https://example.org"
+        title="Exemple d'iframe" width="400" height="300">
+        </iframe>
+        
+        <hr>
+
+        <h3>Formulaire de contact</h3>
+        <form method="POST" action="#">
+            <div>
+                <label for="male">Homme</label>
+                <input type="radio" id="male" name="gender">
+                <br>
+                <label for="female">Femme</label>
+                <input type="radio" id="female" name="genre">
+                <br>
+            </div>
+
+            <p>
+                <label for="name">Nom & Prénom :</label>
+                <input type="text" id="name" name="name" placeholder="ex: Didier Deschamps">
+            </p>
+
+            <p>
+                <label for="age">Age :</label>
+                <input type="number" id="age" name="age" min="0" max="150" placeholder="ex: 52">
+                <label for="age">ans</label>
+            </p>
+
+            <p>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="mail" placeholder="ex: prenom@domain.com">
+            </p>
+
+            <p>
+                <label for="subject">Sujet :</label>
+                <select name="subject" id="subject">
+                    <option value="">Choisissez</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+            </p>
+
+            <div>
+                <label for="chmptxt">Votre message :</label><br>
+                <textarea id="chmptxt" name="chmptxt" rows="8" cols="50" placeholder="ex: Madame, Monsieur ..."></textarea>
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" id="check" name="check">
+                <label for="check">En cochant cette case j'accepte les conditions relatives à l'utilisation de mes données personnelles décrites dans les <a href="https://youtu.be/dQw4w9WgXcQ" title="Redirection vers les mentions légales" target="_blank">mentions légales.</a></label>
+            </div>
+            <br>
+
+            <div><input type="submit" id="submit" name="submit" value="Envoyer le message"></div>
+            <br>
+
+        </form>
+
+    </article>
+
+    <hr>
+    <footer>
+        <p>Si je suis libre, je</p>
+    </footer>
+</body>
+
+</html>
